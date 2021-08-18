@@ -32,7 +32,7 @@ int main()
             break;
         case '/':
             if (second_operand != 0) {
-                std::cout << first_operand - second_operand;
+                std::cout << first_operand / second_operand;
             }
             else {
                 std::cout << "Error! Can not divide by zero!" << '\n';
