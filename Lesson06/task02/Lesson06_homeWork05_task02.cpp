@@ -30,10 +30,6 @@ int main()
 
         for (int internalCounter = 0; internalCounter < length; internalCounter++) {
 
-            if (externalCounter == internalCounter) {
-                continue;
-            }
-
             if (*(flatArray + externalCounter) == *(flatArray + internalCounter) && externalCounter != internalCounter) {
                 flag = true;
             }
