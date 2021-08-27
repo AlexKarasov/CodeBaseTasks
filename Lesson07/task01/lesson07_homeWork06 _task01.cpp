@@ -17,6 +17,7 @@ int main()
 	for (int externalCounter = 0; externalCounter < length; externalCounter++) {
 		
 		for (int internalCounter = 0; internalCounter < length - 1; internalCounter++) {
+			
 			if (flatArray[internalCounter] == 0 && flatArray[internalCounter + 1] != 0) {
 				std::swap(flatArray[internalCounter], flatArray[internalCounter + 1]);
 			}
